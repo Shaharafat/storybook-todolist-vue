@@ -52,14 +52,14 @@ export default {
 			 *
 			 */
 			archiveTask() {
-				emit('archive-task', props.state.id);
+				emit('archive-task', props.task.id);
 			},
 
 			/**
 			 * Event handler for pinning task
 			 */
 			pinTask() {
-				emit('pin-task', props.state.id);
+				emit('pin-task', props.task.id);
 			},
 		};
 	},
