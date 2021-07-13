@@ -1,20 +1,20 @@
 <template>
-	<div id="app">
-		<task-list />
-	</div>
+  <div id="app">
+    <inbox-screen />
+  </div>
 </template>
 
 <script>
-import TaskList from './components/TaskList.vue';
+import InboxScreen from "./components/InboxScreen.vue";
 
 export default {
-	name: 'App',
-	components: {
-		TaskList,
-	},
+  name: "App",
+  components: {
+    InboxScreen,
+  },
 };
 </script>
 
 <style>
-@import './index.css';
+@import "./index.css";
 </style>
